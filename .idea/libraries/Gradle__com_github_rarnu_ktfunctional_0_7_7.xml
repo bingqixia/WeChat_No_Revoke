@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.rarnu:ktfunctional-0.7.7">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ktfunctional-0.7.7.aar/57976475e21bd961c4421d503cf7a97b/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/ktfunctional-0.7.7.aar/57976475e21bd961c4421d503cf7a97b/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.rarnu/ktfunctional/0.7.7/ea7a0a32f2e54cf0f8e055c864edec3dae238d91/ktfunctional-0.7.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

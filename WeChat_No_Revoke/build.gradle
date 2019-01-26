@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
+
+android {
+    compileSdkVersion 27
+
+    lintOptions {
+        abortOnError false
+    }
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+}
+
+dependencies {
+    compileOnly 'de.robv.android.xposed:api:82'
+    implementation "com.github.rarnu:ktfunctional:0.7.7"
+    implementation "com.android.support:support-v4:27.0.0"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+}
+
+project.gradle.startParameter.excludedTaskNames.add('compileDebugNdk')
+project.gradle.startParameter.excludedTaskNames.add('compileReleaseNdk')
+project.gradle.startParameter.excludedTaskNames.add('lint')
+project.gradle.startParameter.excludedTaskNames.add('lintVitalRelease')

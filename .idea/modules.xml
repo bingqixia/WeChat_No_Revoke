@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/WeChat_No_Revoke.iml" filepath="$PROJECT_DIR$/WeChat_No_Revoke.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeChat_No_Revoke/WeChat_No_Revoke-WeChat_No_Revoke.iml" filepath="$PROJECT_DIR$/WeChat_No_Revoke/WeChat_No_Revoke-WeChat_No_Revoke.iml" />
+    </modules>
+  </component>
+</project>
